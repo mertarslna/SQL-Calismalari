@@ -2,8 +2,8 @@
 -- INSERT: Veritabanýna yeni bir kayýt eklemek için kullanýlýr.
 -- UPDATE: Var olan bir kaydý güncellemek için kullanýlýr.
 -- DROP: Bir tabloyu veya veritabanýný tamamen silmek için kullanýlýr. Geri döndürülemez.
--- TRUNCATE: Bir tablodaki tüm verileri silmek için kullanýlýr ancak tablo yapýsý korunur.
--- DELETE: Tablodaki belirli veya tüm kayýtlarý silmek için kullanýlýr. DROP veya TRUNCATE'den farklý olarak sadece kayýtlar silinir; tablo yapýsý kalýr.
+-- TRUNCATE: Bir tablodaki tüm verileri silmek için kullanýlýr ancak tablo yapýsý korunur. ID sýfýrlanýr.
+-- DELETE: Tablodaki belirli veya tüm kayýtlarý silmek için kullanýlýr. DROP veya TRUNCATE'den farklý olarak sadece kayýtlar silinir; tablo yapýsý kalýr.ID sýfýrlanmaz
 -- WHERE: Sorguya belirli bir koþul eklemek için kullanýlýr. Genellikle SELECT, UPDATE veya DELETE ile kullanýlýr.
 
 -- =, >, <, <>, LIKE, BETWEEN: Karþýlaþtýrma operatörleridir. Belirli koþullarý tanýmlamak için kullanýlýr.
