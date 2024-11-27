@@ -7,20 +7,22 @@ CREATE TABLE Customer (
     Email VARCHAR(100)
 );
 
-CREATE TABLE Hotel (
-    Hotel_id INT IDENTITY(1,1) PRIMARY KEY,
-    Hotel_Name VARCHAR(100),
-    Location VARCHAR(200),
-    Score DECIMAL(3, 2)
+CREATE TABLE Review (
+    Review_id INT IDENTITY(1,1) PRIMARY KEY,  
+    Customer_id INT NOT NULL,               
+    Rating INT CHECK (Rating >= 1 AND Rating <= 5), 
+    Comments TEXT,                         
+    Comment_Date DATE DEFAULT GETDATE(),     
+    FOREIGN KEY (Customer_id) REFERENCES Customer(Customer_id)
 );
+
 
 CREATE TABLE Room (
     Room_id INT PRIMARY KEY,
     Hotel_id INT,
     Room_Type VARCHAR(50),
     Price DECIMAL(10, 2),
-    Available BIT,  -- BOOLEAN yerine BIT kullanýldý
-    FOREIGN KEY (Hotel_id) REFERENCES Hotel(Hotel_id)
+    Available BIT,  
 );
 
 CREATE TABLE Bill (

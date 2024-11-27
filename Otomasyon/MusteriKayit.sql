@@ -1,0 +1,26 @@
+INSERT INTO Customer (Age, Gender, Name, Phone, Email) VALUES (35, 'Kadýn', 'Cheryl Smith', '(901)3603096', 'cherylsmith360@yahoo.com');
+INSERT INTO Customer (Age, Gender, Name, Phone, Email) VALUES (26, 'Erkek', 'Willie Henderson', '+1-440-695-971317295', 'w_hender85@thomas.net');
+INSERT INTO Customer (Age, Gender, Name, Phone, Email) VALUES (21, 'Erkek', 'Jason Adkins', '0554 550 5241', 'michaelpratt@acevedo-cruz.biz');
+INSERT INTO Customer (Age, Gender, Name, Phone, Email) VALUES (68, 'Erkek', 'Christopher Myers', '0524 320 5249', 'goodsamuel@jones-mcpherson.com');
+INSERT INTO Customer (Age, Gender, Name, Phone, Email) VALUES (59, 'Erkek', 'John Gardner', '0517 407 2223', 'sanchezanthony@bates-johnson.org');
+INSERT INTO Customer (Age, Gender, Name, Phone, Email) VALUES (53, 'Erkek', 'Cannur Yýldýrým', '0724 920 5549', 'zakca@camurcuoglu.com');
+INSERT INTO Customer (Age, Gender, Name, Phone, Email) VALUES (22, 'Erkek', 'Sýylýhan Yýlmaz', '0547 607 8092', 'amansiz@gmail.com');
+INSERT INTO Customer (Age, Gender, Name, Phone, Email) VALUES (43, 'Erkek', 'Sevla Duran Fýrat', '986 3 521', 'akdenizonat@turk.com');
+INSERT INTO Customer (Age, Gender, Name, Phone, Email) VALUES (29, 'Erkek', 'Gülseren Akgündüz', '0112 911 21 18', 'caglasin29@gmail.com');
+INSERT INTO Customer (Age, Gender, Name, Phone, Email) VALUES (61, 'Erkek', 'Ýçimbike Þelâle Þener Seven', '0(462)936 106 7987', 'demirelcivgin@hotmail.com');
+INSERT INTO Customer (Age, Gender, Name, Phone, Email) VALUES (31, 'Kýz', 'Canan Semrin Sezer', '710 3 922', 'dkisakurek@firat.com');
+INSERT INTO Customer (Age, Gender, Name, Phone, Email) VALUES (32, 'Erkek', 'Hilayda Sezgin', '0496 309 1605', 'hacile16@yahoo.com');
+INSERT INTO Customer (Age, Gender, Name, Phone, Email) VALUES (26, 'Erkek', 'Akise Sýrriye Ergül Çetin', '0577 422 8677', 'sevensidar@opet.com');
+INSERT INTO Customer (Age, Gender, Name, Phone, Email) VALUES (24, 'Erkek', 'Uður Korutürk Aslan', '0577 2 205', 'yildirimnesip@corlu.com');
+INSERT INTO Customer (Age, Gender, Name, Phone, Email) VALUES (60, 'Erkek', 'Feryas Rakide Arslan Þama', '0445 317 8811', 'demirnurda@yahoo.com');
+INSERT INTO Customer (Age, Gender, Name, Phone, Email) VALUES (35, 'Kýz', 'Alaz Karadeniz', '0505 002 1702', 'cuheyna10@turk.net');
+INSERT INTO Customer (Age, Gender, Name, Phone, Email) VALUES (36, 'Erkek', 'Ýslime Günsel Akçay', '0070 7861 295', 'aseven@yahoo.com');
+INSERT INTO Customer (Age, Gender, Name, Phone, Email) VALUES (67, 'Erkek', 'Seçgül Akçay Bilge', '0125 330 1398', 'bediriye62@gmail.com');
+INSERT INTO Customer (Age, Gender, Name, Phone, Email) VALUES (38, 'Kýz', 'Esenbay Gülen', '0150 010 0548', 'hayrioglugilman@gmail.com');
+INSERT INTO Customer (Age, Gender, Name, Phone, Email) VALUES (29, 'Kýz', 'Kete Ülker', '0195 4199613', 'xsakarya@sezgin.info');
+INSERT INTO Customer (Age, Gender, Name, Phone, Email) VALUES (48, 'Kýz', 'Çinerk Eyyüp Yüksel', '0141 060 5695', 'durgadinaslan@turk.info');
+INSERT INTO Customer (Age, Gender, Name, Phone, Email) VALUES (64, 'Kýz', 'Þahdiye Demir', '0420 021 4316', 'hazrat10@hotmail.com');
+INSERT INTO Customer (Age, Gender, Name, Phone, Email) VALUES (66, 'Erkek', 'Melihcan Öcalan', '838 6 954', 'xyorulmaz@masomo.biz');
+INSERT INTO Customer (Age, Gender, Name, Phone, Email) VALUES (37, 'Kýz', 'Boztaþ Yeneral Güçlü', '0113 445 2319', 'hadrey83@yahoo.com');
+INSERT INTO Customer (Age, Gender, Name, Phone, Email) VALUES (43, 'Kýz', 'Baydu Ünsever Ergül', '0322 302 2594', 'hyaman@yahoo.com');
+
