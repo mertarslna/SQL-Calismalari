@@ -1,0 +1,1 @@
+SELECT MAX(list_price) AS [En Pahalý Liste Fiyatý] FROM production.products
