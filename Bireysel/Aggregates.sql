@@ -1,0 +1,5 @@
+-- SUM(...) : Ýlgili tablodaki deðerleri toplar
+-- COUNT(...) : Ýlgili tablodaki deðerleri sayar
+-- MIN(...) : Ýlgili tablodaki deðerlerin en küçüðünü bulur
+-- MAX(...) : Ýlgili tablodaki deðerlerin en büyüðünü bulur
+-- AVG(...) : Ýlgili tablodaki deðerlerin ortalamasýný bulur

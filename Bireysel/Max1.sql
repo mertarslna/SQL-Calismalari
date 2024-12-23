@@ -1,0 +1,1 @@
+SELECT MAX(list_price) FROM production.products

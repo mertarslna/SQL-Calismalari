@@ -1,0 +1,1 @@
+SELECT COUNT(list_price) FROM production.products

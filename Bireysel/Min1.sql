@@ -1,0 +1,1 @@
+SELECT MIN(list_price) FROM production.products

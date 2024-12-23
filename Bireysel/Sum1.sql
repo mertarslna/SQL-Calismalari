@@ -1,0 +1,1 @@
+SELECT SUM(list_price) FROM production.products
