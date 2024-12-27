@@ -28,3 +28,17 @@
 --n olanlar Unicode desteklidir.
 
 --Unicode: Uluslar arası karakterleri destekler
+
+--Tarih-Saat
+--date: (0001-01-01'den 9999-12-31'e kadar) 
+--		4 Byte
+--smalldatetime: (1900-01-01'den 2079-06-06'ya kadar) 
+--				 4 Byte
+--datetime: (1753-01-01'den 9999-12-31'e kadar) 
+--			8 Byte
+--datetime2: (0001-01-01'den 9999-12-31'e kadar) 
+--			 6-8 Byte (kesir hassasiyetine bağlı)
+--datetimeoffset: (0001-01-01'den 9999-12-31'e kadar) 
+--				  10 Byte
+--time: (00:00:00'dan 23:59:59.9999999'a kadar) 
+--		3-5 Byte (kesir hassasiyetine bağlı)
