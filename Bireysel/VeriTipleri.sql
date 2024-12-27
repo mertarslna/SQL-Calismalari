@@ -9,10 +9,10 @@
 --     8'den fazla ise 2 Byte yer kaplar.
 
 --Ondalıklılar
---decimal/numeric: 1'den 9'a kadar için 5 Byte
---                 10'dan 19'a kadar için 9 Byte
---                 20'den 28'e kadar için 13 Byte
---                 29'dan 38'e kadar için 17 Byte
+--decimal/numeric: 1'den 9'a kadar 5 Byte
+--                 10'dan 19'a kadar 9 Byte
+--                 20'den 28'e kadar 13 Byte
+--                 29'dan 38'e kadar 17 Byte
 --money: 8 Byte
 --smallmoney: 4 Byte
 --float: 7 basamağa kadar 4 Byte
@@ -37,8 +37,12 @@
 --datetime: (1753-01-01'den 9999-12-31'e kadar) 
 --			8 Byte
 --datetime2: (0001-01-01'den 9999-12-31'e kadar) 
---			 6-8 Byte (kesir hassasiyetine bağlı)
+--				  1'den 2'ye kadar 6 Byte
+--                3'dan 4'a kadar 7 Byte
+--                5'den 7'e kadar 8 Byte
 --datetimeoffset: (0001-01-01'den 9999-12-31'e kadar) 
---				  10 Byte
+--				  1'den 2'ye kadar 8 Byte
+--                3'dan 4'a kadar 9 Byte
+--                5'den 7'e kadar 10 Byte
 --time: (00:00:00'dan 23:59:59.9999999'a kadar) 
 --		3-5 Byte (kesir hassasiyetine bağlı)
