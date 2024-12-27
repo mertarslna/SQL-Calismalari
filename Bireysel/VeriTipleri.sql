@@ -24,4 +24,7 @@
 --nchar: Her bir karakter 2 Byte yer kaplar (0-4000)
 --varchar: Deðiþken uzunluklu karakter dizileri (0-2^31-1)
 --nvarchar: Deðiþken uzunluklu Unicode karakter dizileri (0-2^31-1)
---ntext: Unicode veri için, maksimum 2 GB
+--ntext: Maksimum 2 GB
+--n olanlar Unicode desteklidir.
+
+--Unicode: Uluslar arasý karakterleri destekler
