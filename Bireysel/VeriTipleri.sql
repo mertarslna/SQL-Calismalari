@@ -46,3 +46,12 @@
 --                5'den 7'e kadar 10 Byte
 --time: (00:00:00'dan 23:59:59.9999999'a kadar) 
 --		3-5 Byte (kesir hassasiyetine baðlý)
+
+--Diðer veri tipleri
+--image: Dosya (resim dosyasý) tutmak için kullanýlýr
+--binary: Sabit boyutlu binary (ikili) verileri saklar, her kayýt belirtilen uzunluk kadar yer kaplar.
+--varbinary: Deðiþken boyutlu binary verileri saklar, yalnýzca kullanýlan veri kadar yer kaplar.
+--varbinary(max): Çok büyük binary verileri (ör. dosyalar) saklar, maksimum 2 GB veri depolar.
+--sql_variant: Farklý veri tiplerini ayný sütunda tutmaya izin verir, esneklik saðlar.
+--Xml: XML formatýndaki yapýlandýrýlmýþ verileri saklar ve üzerinde sorgulama yapýlmasýna olanak tanýr.
+--Table: Geçici tablo veya geçici veri saklamak için kullanýlýr, bellekten iþlem yapar ve iþlem sonunda silinir.
