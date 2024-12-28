@@ -49,9 +49,15 @@
 
 --Diðer veri tipleri
 --image: Dosya (resim dosyasý) tutmak için kullanýlýr
---binary: Sabit boyutlu binary (ikili) verileri saklar, her kayýt belirtilen uzunluk kadar yer kaplar.
---varbinary: Deðiþken boyutlu binary verileri saklar, yalnýzca kullanýlan veri kadar yer kaplar.
---varbinary(max): Çok büyük binary verileri (ör. dosyalar) saklar, maksimum 2 GB veri depolar.
---sql_variant: Farklý veri tiplerini ayný sütunda tutmaya izin verir, esneklik saðlar.
---Xml: XML formatýndaki yapýlandýrýlmýþ verileri saklar ve üzerinde sorgulama yapýlmasýna olanak tanýr.
---Table: Geçici tablo veya geçici veri saklamak için kullanýlýr, bellekten iþlem yapar ve iþlem sonunda silinir.
+--binary: Sabit boyutlu binary verileri saklar, her kayýt belirtilen uzunluk kadar yer kaplar
+--varbinary: Deðiþken boyutlu binary verileri saklar, yalnýzca kullanýlan veri kadar yer kaplar
+--varbinary(max): Çok büyük binary verileri (ör. dosyalar) saklar, maksimum 2 GB veri depolar
+--sql_variant: Farklý veri tiplerini ayný sütunda tutmaya izin verir, esneklik saðlar
+--Xml: XML formatýndaki yapýlandýrýlmýþ verileri saklar ve üzerinde sorgulama yapýlmasýna olanak tanýr
+--Table: Geçici tablo veya geçici veri saklamak için kullanýlýr 
+--		 bellekten iþlem yapar ve iþlem sonunda silinir
+--uniqueidentifier: Benzersiz bir tanýmlayýcý (GUID) saklamak için kullanýlýr, genellikle sistem tarafýndan otomatik oluþturulur.
+--hierarchyid: Hiyerarþik verileri saklamak ve yönetmek için optimize edilmiþ özel bir veri türüdür.
+--geography: Coðrafi verileri depolamak ve sorgulamak için kullanýlýr
+--			 coðrafi analizlere olanak tanýr.
+--geometry: Düzlemdeki geometrik verileri saklamak ve sorgulamak için kullanýlýr.
